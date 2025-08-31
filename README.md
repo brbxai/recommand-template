@@ -36,8 +36,9 @@ bun --cwd ./packages/template --env-file=../../.env dev
 
 This will start both the server and client in development mode, and the template module will be automatically detected and made available by the Recommand framework.
 
-## Add as New Package to a Recommand Application 
+## Add as New Package to a Recommand Framework Deployment 
 
-```
-git submodule add git@github.com:brbxai/recommand-package-name.git packages/package-name
+```bash
+# From the main directory
+bun --cwd ./packages/framework init-package
 ```
